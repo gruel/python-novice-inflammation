@@ -31,12 +31,5 @@ $ jupyter notebook
 ~~~
 {: .source}
 
-To start the Python interpreter without the notebook, open a terminal or git bash and type the command:
-
-~~~
-$ python
-~~~
-{: .source}
-
 [zipfile1]: {{ page.root }}/data/python-novice-inflammation-data.zip
 [zipfile2]: {{ page.root }}/code/python-novice-inflammation-code.zip
