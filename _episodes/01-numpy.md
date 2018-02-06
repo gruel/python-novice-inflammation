@@ -28,6 +28,10 @@ keypoints:
 - "Use `numpy.mean(array, axis=0)` or `numpy.mean(array, axis=1)` to calculate statistics across the specified axis."
 - "Use the `pyplot` library from `matplotlib` for creating simple visualizations."
 ---
+> ## Prerequisites
+> Before we get started, make sure you have completed all the steps in [setup]({{page.root}}/setup).
+{: .prereq}
+
 In this lesson we will learn how to manipulate the inflammation dataset with Python. But before we discuss how to deal with many data points, we will show how to store a single value on the computer.
 
 
