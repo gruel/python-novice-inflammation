@@ -4,14 +4,13 @@ title: Setup
 permalink: /setup/
 ---
 
-In preparation for this lesson, you will need to download two zipped files and place them in the specified folder:
+In preparation for this lesson, you will need to download one zipped file and place it in the specified folder:
 
 1. Make a new folder in your Desktop called `python-novice-inflammation`.
 2. Download [python-novice-inflammation-data.zip][zipfile1] and move the file to this folder.
-3. Also download [python-novice-inflammation-code.zip][zipfile2] and move it to the same folder.
-4. If the files aren't unzipped yet, double-click to unzip them. You should end up with 
-two new folders called `data` and `code`.
-5. To get started, go into the `data` folder from the Unix shell with:
+3. If the file aren't unzipped yet, double-click to unzip it. You should end up with 
+one new folder called `data`.
+4. To get started, go into the `data` folder from the Unix shell with:
 
 ~~~
 $ cd
