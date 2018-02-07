@@ -12,30 +12,27 @@ In preparation for this lesson, you will need to download one zipped file and pl
 one new folder called `data`.
 4. To get started, go into the `data` folder from the Unix shell with:
 
-~~~
-$ cd
-$ cd Desktop/python-novice-inflammation/data
-~~~
-{: .source}
+	~~~
+	$ cd
+	$ cd Desktop/python-novice-inflammation/data
+	~~~
+	{: .source}
 
-If you will be using the Jupyter (IPython) notebook for the lesson,
-you should have already
-[installed Anaconda](http://swcarpentry.github.io/workshop-template/#setup)
-which includes the notebook.
+	If you will be using the Jupyter (IPython) notebook for the lesson,
+	you should have already
+	[installed Anaconda](http://swcarpentry.github.io/workshop-template/#setup)
+	which includes the notebook.
 
-To start the notebook, open a terminal or git bash and type the command:
+6. To start the notebook server, open a terminal or git bash and type the command:
 
-~~~
-$ jupyter notebook
-~~~
-{: .source}
+	~~~
+	$ jupyter notebook
+	~~~
+	{: .source}
 
-To start the Python interpreter without the notebook, open a terminal or git bash and type the command:
+7. Then create a new notebook using the drop-down menu on the right to select 'Python 3 notebook':
 
-~~~
-$ python
-~~~
-{: .source}
+	![](../fig/new-notebook.png)
 
 [zipfile1]: {{ page.root }}/data/python-novice-inflammation-data.zip
 [zipfile2]: {{ page.root }}/code/python-novice-inflammation-code.zip
