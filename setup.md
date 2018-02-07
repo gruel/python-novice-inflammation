@@ -23,16 +23,15 @@ one new folder called `data`.
 	[installed Anaconda](http://swcarpentry.github.io/workshop-template/#setup)
 	which includes the notebook.
 
-6. To start the notebook server, open a terminal or git bash and type the command:
+5. To start the notebook server, open a terminal or git bash and type the command:
 
 	~~~
 	$ jupyter notebook
 	~~~
 	{: .source}
 
-7. Then create a new notebook using the drop-down menu on the right to select 'Python 3 notebook':
+6. Then create a new notebook using the drop-down menu on the right to select 'Python 3 notebook':
 
 	![](../fig/new-notebook.png)
 
 [zipfile1]: {{ page.root }}/data/python-novice-inflammation-data.zip
-[zipfile2]: {{ page.root }}/code/python-novice-inflammation-code.zip
