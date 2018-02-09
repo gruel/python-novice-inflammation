@@ -817,7 +817,8 @@ the graphs will actually be squeezed together more closely.)
 {: .callout}
 > ## Check Your Understanding
 >
-> Draw diagrams showing what variables refer to what values after each statement in the following program:
+> What values do the variables `mass` and `age` have after each statement in the following program? 
+> You can test your answers by typing the commands.
 >
 > ~~~
 > mass = 47.5
@@ -1022,7 +1023,7 @@ the graphs will actually be squeezed together more closely.)
 > > import numpy
 > > import matplotlib.pyplot
 > >
-> > data = numpy.loadtxt(fname='data/inflammation-01.csv', delimiter=',')
+> > data = numpy.loadtxt(fname='inflammation-01.csv', delimiter=',')
 > >
 > > # change figsize (swap width and height)
 > > fig = matplotlib.pyplot.figure(figsize=(3.0, 10.0))
