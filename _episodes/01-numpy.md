@@ -909,6 +909,14 @@ the graphs will actually be squeezed together more closely.)
 >
 > > ## Solution
 > > ~~~
+> > Both commands will produce an empty array but if we look at the shape 
+> > of the arrays, the second answer gives a shape of (0,40). 
+> > This can be confusing since we would have expected a shape to be null 
+> > but we have to remember that a shape is not real in term of computing. 
+> > It is only an attribute attributed to our object. The space in memory 
+> > used by that object will be 0x40 which is 0. Numpy could have changed 
+> > the second shape value to 0, but it would have add unnecessarily overhead.
+> >
 > > []
 > > []
 > > ~~~
