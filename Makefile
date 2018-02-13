@@ -60,6 +60,7 @@ workshop-check :
 RMD_SRC = $(wildcard _episodes_rmd/??-*.Rmd)
 RMD_DST = $(patsubst _episodes_rmd/%.Rmd,_episodes/%.md,$(RMD_SRC))
 
+
 # Lesson source files in the order they appear in the navigation menu.
 MARKDOWN_SRC = \
   index.md \
@@ -114,6 +115,10 @@ lesson-files :
 ## lesson-fixme     : show FIXME markers embedded in source files.
 lesson-fixme :
 	@fgrep -i -n FIXME ${MARKDOWN_SRC} || true
+
+## Jupyter Notebook Slides:
+jupyter-slides:
+	jupyter nbconvert Slides.ipynb --to slides --post serve
 
 #-------------------------------------------------------------------------------
 # Include extra commands if available.
