@@ -341,7 +341,8 @@ so we should always use it when we can.
 > > oldstring = 'Newton'
 > > for char in oldstring:
 > >    newstring = char + newstring
-> > print(newstring)
+> >    print(newstring) # Print value of newstring variable within the loop
+> > print(newstring)    # Print value of newstring after the loop
 > > ~~~
 > > {: .python}
 > {: .solution}
