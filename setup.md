@@ -4,7 +4,7 @@ title: Setup
 permalink: /setup/
 ---
 
-In preparation for this lesson, you will need to download one zipped file and place it in the specified folder:
+In preparation for this lesson, you will need to download one zip file and place it in the specified folder:
 
 1. Make a new folder in your Desktop called `python-novice-inflammation`.
 2. Download [python-novice-inflammation-data.zip][zipfile1] and move the file to this folder.
